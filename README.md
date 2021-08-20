@@ -6,13 +6,22 @@ The code requires the normal Python packages sys, os, math, matplotlib, and tkit
 The following files constitute the code:
 
 extinction_code.py
+
 model_utilities.py
+
+
 position_plot.py
+
 read_vizier_sed_table.py
+
 sed_plot_interface.py
+
 sed_utilities.py
+
 tkinter_utilities.py
 
 in addition the code looks for the file extinction.values which should be in the same directory as the code.  Further, a set of filter profiles are needed for the code to compare stellar models to observed photometry.  These are stored in the filter_subset directory.  If one runs the code from a directory other than where the code files are found, one needs to define the $EXTINCTION_PATH environment variable to point to the directory where the code and the filter_subset directory are found.
 
 The code is run by starting the "sed_plot_interface.py" code from the command line.  Hence this file needs to be executable.  
+
+The code requires python version 3.  It has been tested on a MacOS system and on a Linux/Unix system.  It has not been tested on a Microsoft Windows system.
