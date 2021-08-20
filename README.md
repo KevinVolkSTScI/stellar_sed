@@ -9,7 +9,6 @@ extinction_code.py
 
 model_utilities.py
 
-
 position_plot.py
 
 read_vizier_sed_table.py
@@ -25,3 +24,6 @@ in addition the code looks for the file extinction.values which should be in the
 The code is run by starting the "sed_plot_interface.py" code from the command line.  Hence this file needs to be executable.  
 
 The code requires python version 3.  It has been tested on a MacOS system and on a Linux/Unix system.  It has not been tested on a Microsoft Windows system.
+
+Description of how to use the code is found in the documentation files sed_display_and_fitting_code.docx and sed_display_and_fitting_code.pdf.
+
